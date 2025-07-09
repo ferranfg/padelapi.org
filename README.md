@@ -2,6 +2,12 @@
 
 Learn how to access, authenticate with, and use the [Padel API](https://en.fantasypadeltour.com/docs) by **Fantasy Padel Tour**.
 
+### Roadmap & Issues
+
+❇️ View the official [Padel API public roadmap](https://github.com/users/ferranfg/projects/2).
+
+Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via [Padel API public issues](https://github.com/ferranfg/padelapi.org/issues).
+
 ### Authentication
 
 The **Padel API** uses API tokens to authenticate requests. These are provided to you on your [API Tokens](https://en.fantasypadeltour.com/user/api-tokens) management page.
@@ -42,9 +48,3 @@ The Padel API MCP Server allows AI tools like Chat GPT, Claude Desktop, and othe
 The Padel API MCP Server surfaces Padel API context and functionality to any AI host that supports the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction?utm_campaign=mpu_july2025&utm_medium=email&utm_source=github). It lets tools like GitHub Copilot query and operate on Padel API data securely and in real time, enabling more context-aware and actionable agent workflows across environments.
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=padel-api&config=%7B%22type%22%3A%20%22http%22%2C%22url%22%3A%20%22https%3A%2F%2Ffantasypadeltour.com%2Fmcp%2F%22%7D)
-
-### Roadmap & Issues
-
-❇️ View the official [Padel API public roadmap](https://github.com/users/ferranfg/projects/2).
-
-Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via [Padel API public issues](https://github.com/ferranfg/padelapi.org/issues).
