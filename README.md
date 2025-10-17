@@ -8,6 +8,16 @@ Learn how to access, authenticate with, and use the [Padel API](https://en.fanta
 
 Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via [Padel API public issues](https://github.com/ferranfg/padelapi.org/issues).
 
+### Tournaments Coverage
+
+To guarantee the highest data quality and consistency, Padel API currently focuses on the following tournament levels:
+
+![Padel API](/images/padelapi-padelfip.jpeg)
+
+This ensures comprehensive and timely coverage of draws, schedules, matches, results, and statistics.
+
+Lower-tier events (such as FIP Gold, FIP Rise, national or exhibition events, and qualifiers) may have incomplete or inconsistent data at the source, so we cannot guarantee the same quality. Coverage will gradually expand as these events meet our quality standards.
+
 ### Authentication
 
 The **Padel API** uses API tokens to authenticate requests. These are provided to you on your [API Tokens](https://en.fantasypadeltour.com/user/api-tokens) management page.
