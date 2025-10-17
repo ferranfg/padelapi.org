@@ -12,7 +12,7 @@ Our product roadmap is where you can learn about what features we're working on,
 
 To guarantee the highest data quality and consistency, Padel API currently focuses on the following tournament levels:
 
-![Padel API](/images/padelapi-padelfip.jpeg)
+![Padel API](https://raw.githubusercontent.com/ferranfg/padelapi.org/refs/heads/master/images/padelapi-padelfip.jpeg)
 
 This ensures comprehensive and timely coverage of draws, schedules, matches, results, and statistics.
 
