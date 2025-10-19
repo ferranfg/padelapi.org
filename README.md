@@ -16,7 +16,20 @@ To guarantee the highest data quality and consistency, Padel API currently focus
 
 This ensures comprehensive and timely coverage of draws, schedules, matches, results, and statistics.
 
-Lower-tier events (such as FIP Gold, FIP Rise, national or exhibition events, and qualifiers) may have incomplete or inconsistent data at the source, so we cannot guarantee the same quality. Coverage will gradually expand as these events meet our quality standards.
+Lower-tier events (such as FIP Rise, FIP Promises, national or exhibition events, and qualifiers) may have incomplete or inconsistent data at the source, so we cannot guarantee the same quality. Coverage will gradually expand as these events meet our quality standards.
+
+Feature availability varies by tournament level. Refer to the table below for the current availability of Results, Stats, and Live coverage.
+
+| Level         | Results | Stats   | Live  |
+|---------------|---------|---------|-------|
+| major         |✅       |✅       |✅      |
+| p1            |✅       |✅       |✅      |
+| p2            |✅       |✅       |✅      |
+| finals        |✅       |✅       |✅      |
+| fip_platinum  |✅       |✅       |✅      |
+| fip_gold      |✅       |❌       |❌      |
+| fip_silver    |✅       |❌       |❌      |
+| fip_bronze    |✅       |❌       |❌      |
 
 ### Authentication
 
