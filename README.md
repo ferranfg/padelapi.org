@@ -1,6 +1,6 @@
 ## About the Padel API
 
-Learn how to access, authenticate with, and use the [Padel API](https://en.fantasypadeltour.com/docs) by **Fantasy Padel Tour**.
+Learn how to access, authenticate with, and use the [Padel API](https://padelapi.org).
 
 ### Roadmap & Issues
 
@@ -33,7 +33,7 @@ Feature availability varies by tournament level. Refer to the table below for th
 
 ### Authentication
 
-The **Padel API** uses API tokens to authenticate requests. These are provided to you on your [API Tokens](https://en.fantasypadeltour.com/user/api-tokens) management page.
+The **Padel API** uses API tokens to authenticate requests. These are provided to you on your [API Tokens](https://padelapi.org/user/api-tokens) management page.
 
 To authenticate, you need to include an `Authorization` header in all of your requests. In this header, you must state that you're using an API token (similar to [HTTP basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)).
 
@@ -41,7 +41,7 @@ For example:
 
 ```curl
 curl -i -X GET \
-  'https://fantasypadeltour.com/api/seasons' \
+  'https://padelapi.org/api/seasons' \
   -H 'Authorization: Bearer YOUR_API_TOKEN_HERE'
 ```
 
