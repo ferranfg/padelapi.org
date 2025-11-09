@@ -20,16 +20,32 @@ Lower-tier events (such as FIP Rise, FIP Promises, national or exhibition events
 
 Feature availability varies by tournament level. Refer to the table below for the current availability of Results, Stats, and Live coverage.
 
-| Level         | Results | Stats   | Live  |
-|---------------|---------|---------|-------|
-| major         |✅       |✅       |✅      |
-| p1            |✅       |✅       |✅      |
-| p2            |✅       |✅       |✅      |
-| finals        |✅       |✅       |✅      |
-| fip_platinum  |✅       |✅       |✅      |
-| fip_gold      |✅       |❌       |❌      |
-| fip_silver    |✅       |❌       |❌      |
-| fip_bronze    |✅       |❌       |❌      |
+#### Premier Padel
+
+| Level           | Results | Stats   | Live  |
+|-----------------|---------|---------|-------|
+| `major`         |✅       |✅       |✅      |
+| `p1`            |✅       |✅       |✅      |
+| `p2`            |✅       |✅       |✅      |
+| `finals`        |✅       |✅       |✅      |
+
+#### Padel FIP
+
+| Level           | Results | Stats   | Live  |
+|-----------------|---------|---------|-------|
+| `fip_platinum`  |✅       |✅       |✅      |
+| `fip_gold`      |✅       |❌       |❌      |
+| `fip_silver`    |✅       |❌       |❌      |
+| `fip_other`     |✅       |❓       |❓      |
+
+#### World Padel Tour
+
+| Level           | Results | Stats   | Live  |
+|-----------------|---------|---------|-------|
+| `wpt_1000`      |✅       |❌       |❌      |
+| `wpt_500`       |✅       |❌       |❌      |
+| `wpt_final`     |✅       |❌       |❌      |
+| `wpt_master`    |✅       |❌       |❌      |
 
 ### Authentication
 
