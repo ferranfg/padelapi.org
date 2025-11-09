@@ -42,10 +42,10 @@ Feature availability varies by tournament level. Refer to the table below for th
 
 | Level           | Results | Stats   | Live  |
 |-----------------|---------|---------|-------|
+| `wpt_master`    |✅       |❌       |❌      |
 | `wpt_1000`      |✅       |❌       |❌      |
 | `wpt_500`       |✅       |❌       |❌      |
 | `wpt_final`     |✅       |❌       |❌      |
-| `wpt_master`    |✅       |❌       |❌      |
 
 ### Authentication
 
