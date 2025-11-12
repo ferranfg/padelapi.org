@@ -12,7 +12,7 @@ Our product roadmap is where you can learn about what features we're working on,
 
 To guarantee the highest data quality and consistency, Padel API currently focuses on the following tournament levels:
 
-![Padel API](https://raw.githubusercontent.com/ferranfg/padelapi.org/refs/heads/master/images/padelapi-padelfip.jpeg)
+![Padel API](https://raw.githubusercontent.com/ferranfg/padelapi.org/refs/heads/master/images/padelapi-padelfip-2.jpeg)
 
 This ensures comprehensive and timely coverage of draws, schedules, matches, results, and statistics.
 
@@ -35,8 +35,10 @@ Feature availability varies by tournament level. Refer to the table below for th
 |-----------------|-------|---------|----------------|
 | `fip_platinum`  |✅     |✅       |✅               |
 | `fip_gold`      |✅     |❌       |❌               |
-| `fip_silver`    |✅     |❌       |❌               |
-| `fip_other`     |✅     |❓       |❓               |
+| `fip_silver`    |🔜     |❌       |❌               |
+| `fip_other`*    |✅     |❓       |❓               |
+
+*Other tournaments may include manually curated individual FIP events of particular relevance, such as the FIP World Cup Pairs.
 
 #### World Padel Tour
 
