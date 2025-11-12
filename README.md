@@ -10,17 +10,17 @@ Our product roadmap is where you can learn about what features we're working on,
 
 ### Tournaments Coverage
 
-To guarantee the highest data quality and consistency, Padel API currently focuses on the following tournament levels:
-
-![Padel API](https://raw.githubusercontent.com/ferranfg/padelapi.org/refs/heads/master/images/padelapi-padelfip-2.jpeg)
+To guarantee the highest data quality and consistency, Padel API currently focuses on the following tournament levels.
 
 This ensures comprehensive and timely coverage of draws, schedules, matches, results, and statistics.
 
-Lower-tier events (such as FIP Rise, FIP Promises, national or exhibition events, and qualifiers) may have incomplete or inconsistent data at the source, so we cannot guarantee the same quality. Coverage will gradually expand as these events meet our quality standards.
+Feature availability varies by tournament level. Refer to the tables below for the current availability of Results, Stats, and Live coverage.
 
-Feature availability varies by tournament level. Refer to the table below for the current availability of Results, Stats, and Live coverage.
+#### Padel FIP & Premier Padel
 
-#### Premier Padel
+Lower-tier events (such as FIP Rise, FIP Promises, national or exhibition events, and qualifiers) may have incomplete or inconsistent data at the source, so we cannot guarantee the same quality.
+
+![Padel API](https://raw.githubusercontent.com/ferranfg/padelapi.org/refs/heads/master/images/padelapi-padelfip-2.jpeg)
 
 | Level           | Score | Stats   | Point by point |
 |-----------------|-------|---------|----------------|
@@ -28,11 +28,6 @@ Feature availability varies by tournament level. Refer to the table below for th
 | `p1`            |✅     |✅       |✅               |
 | `p2`            |✅     |✅       |✅               |
 | `finals`        |✅     |✅       |✅               |
-
-#### Padel FIP
-
-| Level           | Score | Stats   | Point by point |
-|-----------------|-------|---------|----------------|
 | `fip_platinum`  |✅     |✅       |✅               |
 | `fip_gold`      |✅     |❌       |❌               |
 | `fip_silver`    |🔜     |❌       |❌               |
@@ -41,6 +36,8 @@ Feature availability varies by tournament level. Refer to the table below for th
 *Other tournaments may include manually curated individual FIP events of particular relevance, such as the FIP World Cup Pairs.
 
 #### World Padel Tour
+
+Coverage currently includes 2023 World Padel Tour events. Additional historical data is being collected and will be added as it meets quality standards.
 
 | Level           | Score | Stats   | Point by point |
 |-----------------|-------|---------|----------------|
