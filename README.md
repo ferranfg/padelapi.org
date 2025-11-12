@@ -22,30 +22,30 @@ Feature availability varies by tournament level. Refer to the table below for th
 
 #### Premier Padel
 
-| Level           | Results | Stats   | Point by point |
-|-----------------|---------|---------|----------------|
-| `major`         |✅       |✅       |✅               |
-| `p1`            |✅       |✅       |✅               |
-| `p2`            |✅       |✅       |✅               |
-| `finals`        |✅       |✅       |✅               |
+| Level           | Score | Stats   | Point by point |
+|-----------------|-------|---------|----------------|
+| `major`         |✅     |✅       |✅               |
+| `p1`            |✅     |✅       |✅               |
+| `p2`            |✅     |✅       |✅               |
+| `finals`        |✅     |✅       |✅               |
 
 #### Padel FIP
 
-| Level           | Results | Stats   | Point by point |
-|-----------------|---------|---------|----------------|
-| `fip_platinum`  |✅       |✅       |✅               |
-| `fip_gold`      |✅       |❌       |❌               |
-| `fip_silver`    |✅       |❌       |❌               |
-| `fip_other`     |✅       |❓       |❓               |
+| Level           | Score | Stats   | Point by point |
+|-----------------|-------|---------|----------------|
+| `fip_platinum`  |✅     |✅       |✅               |
+| `fip_gold`      |✅     |❌       |❌               |
+| `fip_silver`    |✅     |❌       |❌               |
+| `fip_other`     |✅     |❓       |❓               |
 
 #### World Padel Tour
 
-| Level           | Results | Stats   | Point by point |
-|-----------------|---------|---------|----------------|
-| `wpt_master`    |✅       |❌       |❌               |
-| `wpt_1000`      |✅       |❌       |❌               |
-| `wpt_500`       |✅       |❌       |❌               |
-| `wpt_final`     |✅       |❌       |❌               |
+| Level           | Score | Stats   | Point by point |
+|-----------------|-------|---------|----------------|
+| `wpt_master`    |✅     |❌       |❌               |
+| `wpt_1000`      |✅     |❌       |❌               |
+| `wpt_500`       |✅     |❌       |❌               |
+| `wpt_final`     |✅     |❌       |❌               |
 
 ### Authentication
 
