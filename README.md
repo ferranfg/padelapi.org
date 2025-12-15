@@ -68,10 +68,10 @@ Several endpoints return paginated results.
 
 By default, the **Padel API** only returns the first 15 results for those endpoints. You can use optional query parameters to increase or decrease the number of results.
 
-| Parameter  | Description                                        |
-|------------|----------------------------------------------------|
-| `per_page` | Number of results to return per page (default: 15) |
-| `page`     | Page number to retrieve                            |
+| Parameter  | Description                                                         |
+|------------|---------------------------------------------------------------------|
+| `per_page` | Number of results to return per page (default: 15, min: 1, max: 50) |
+| `page`     | Page number to retrieve                                             |
 
 ### Status Codes
 
