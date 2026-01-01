@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Padel API - Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://padelapi.org/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -91,7 +91,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:ferran@padelapi.org"
       }
     ],
     "primary": {
@@ -114,9 +114,19 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/ferranfg/padelapi.org",
+      "website": "https://padelapi.org"
+    }
+  },
+  "description": "First-ever API for professional padel data. Get access to the latest padel player stats, rankings, and more.",
+  "appearance": {
+    "strict": false,
+    "default": "system"
+  },
+  "integrations": {
+    "plausible": {
+      "domain": "padelapi.org",
+      "server": "plausible.padelapi.org"
     }
   }
 }
