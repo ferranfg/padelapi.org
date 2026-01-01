@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Padel API - Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#818cf8",
+    "light": "#818cf8",
+    "dark": "#818cf8"
   },
   "favicon": "https://padelapi.org/favicon.ico",
   "navigation": {
@@ -83,10 +83,7 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "https://padelapi.org/favicon.ico",
   "navbar": {
     "links": [
       {
@@ -120,13 +117,18 @@
   },
   "description": "First-ever API for professional padel data. Get access to the latest padel player stats, rankings, and more.",
   "appearance": {
-    "strict": false,
-    "default": "system"
+    "strict": true,
+    "default": "dark"
   },
   "integrations": {
     "plausible": {
       "domain": "padelapi.org",
       "server": "plausible.padelapi.org"
+    }
+  },
+  "background": {
+    "color": {
+      "dark": "#101827"
     }
   }
 }
