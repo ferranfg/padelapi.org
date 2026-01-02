@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#818cf8",
     "light": "#818cf8",
-    "dark": "#818cf8"
+    "dark": "#4f46e5"
   },
   "favicon": "https://padelapi.org/favicon.ico",
   "navigation": {
@@ -49,35 +49,19 @@
       },
       {
         "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "openapi": "https://padelapi.org/docs/api.json"
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Home",
+          "href": "https://padelapi.org",
+          "icon": "home"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://fantasypadeltour.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -93,8 +77,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Access Padel API",
+      "href": "https://padelapi.org/explore"
     }
   },
   "contextual": {
@@ -103,10 +87,7 @@
      "view",
      "chatgpt",
      "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
+     "perplexity"
    ]
   },
   "footer": {
