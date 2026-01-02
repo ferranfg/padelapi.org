@@ -11,61 +11,21 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
             "pages": [
-              "README",
-              "quickstart",
-              "development"
+              "README"
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
+            "group": "Endpoints",
+            "openapi": "https://padelapi.org/docs/api.json"
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "openapi": "https://padelapi.org/docs/api.json"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Home",
-          "href": "https://padelapi.org",
-          "icon": "home"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://fantasypadeltour.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": "/favicon.ico",
   "navbar": {
@@ -111,5 +71,11 @@
     "color": {
       "dark": "#101827"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/README"
+    }
+  ]
 }
