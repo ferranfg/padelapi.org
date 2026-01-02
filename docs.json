@@ -71,11 +71,5 @@
     "color": {
       "dark": "#101827"
     }
-  },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/README"
-    }
-  ]
+  }
 }
