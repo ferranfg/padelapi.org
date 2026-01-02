@@ -1,3 +1,8 @@
+---
+title: "About the Padel API"
+description: "Learn how to access, authenticate with, and use the Padel API"
+---
+
 ## About the Padel API
 
 Learn how to access, authenticate with, and use the [Padel API](https://padelapi.org).

@@ -7,7 +7,7 @@
     "light": "#818cf8",
     "dark": "#4f46e5"
   },
-  "favicon": "https://padelapi.org/favicon.ico",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -16,7 +16,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
+              "README",
               "quickstart",
               "development"
             ]
@@ -67,7 +67,7 @@
       ]
     }
   },
-  "logo": "https://padelapi.org/favicon.ico",
+  "logo": "/favicon.ico",
   "navbar": {
     "links": [
       {
