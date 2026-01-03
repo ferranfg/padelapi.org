@@ -15,12 +15,14 @@
         "groups": [
           {
             "group": "Overview",
+            "icon": "book-open",
             "pages": [
               "index"
             ]
           },
           {
             "group": "Endpoints",
+            "icon": "file-code",
             "openapi": "https://padelapi.org/docs/api.json"
           }
         ]
